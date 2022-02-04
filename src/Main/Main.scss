@@ -1,0 +1,48 @@
+@keyframes fromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+main {
+  .card-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Outfit", sans-serif;
+    background-color: white;
+    padding: 1rem 1rem 2.5rem 1rem;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+    animation: 1.5s fromTop ease;
+
+    img {
+      width: 18rem;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 22px;
+      line-height: 28px;
+      max-width: 17.486ch;
+      margin-bottom: 1rem;
+      color: #1f314f;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 19px;
+      max-width: 26.017ch;
+      letter-spacing: 0.1875px;
+      color: #7d889e;
+    }
+  }
+}

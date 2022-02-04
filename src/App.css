@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5e1ef;
+  min-height: 100vh;
+}
